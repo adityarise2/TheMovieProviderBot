@@ -56,7 +56,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
 VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
-HOWTOVERIFY = environ.get('HOWTOVERIFY', url='https://t.me/+5_f1GyV1xdU5ZTBl') # How to open tutorial link for verification
+default_url = 'https://t.me/+5_f1GyV1xdU5ZTBl'
+HOWTOVERIFY = environ.get('HOWTOVERIFY', default_url) # How to open tutorial link for verification
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'instantearn.in')
