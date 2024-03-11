@@ -107,7 +107,7 @@ else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 default_fqdn = getenv('FQDN', BIND_ADRESS)  # Get FQDN or BIND_ADRESS
-FQDN = f"{getenv('FQDN', BIND_ADRESS)}" if not ON_HEROKU or getenv('FQDN') else f"{APP_NAME}https://gentle-tundra-69827-3ea85f9c9cb9.herokuapp.com"
+FQDN = f"{getenv('FQDN', BIND_ADRESS)}" if not ON_HEROKU or getenv('FQDN') else f"https://gentle-tundra-69827-3ea85f9c9cb9.herokuapp.com"
 
 URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else \
     "https://{}/".format(FQDN, PORT)
