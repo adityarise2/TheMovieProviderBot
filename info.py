@@ -108,9 +108,9 @@ else:
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 default_fqdn = getenv('FQDN', BIND_ADRESS)  # Get FQDN or BIND_ADRESS
 FQDN = getenv('FQDN', default=BIND_ADRESS)  # Set default if FQDN is None
-FQDN = str(FQDN) if FQDN is not None else APP_NAME+'https://gentle-tundra-69827-3ea85f9c9cb9.herokuapp.com'
-URL = "https://gentle-tundra-69827-3ea85f9c9cb9.herokuapp.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "https://gentle-tundra-69827-3ea85f9c9cb9.herokuapp.com/".format(FQDN, PORT)
+FQDN = str(FQDN) if FQDN is not None else APP_NAME+'https://gamma-v4-38a4a7be679a.herokuapp.com/'
+URL = "https://gamma-v4-38a4a7be679a.herokuapp.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "https://gamma-v4-38a4a7be679a.herokuapp.com/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
