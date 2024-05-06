@@ -34,7 +34,7 @@ STREAM_API = (environ.get('STREAM_API', '27bb7f7725c7fbd022cf8cfd6441ac081c8fc76
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/HowToOpenLinkP/69'))
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6258381233 6964538561').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6258381233 6964538561 7030439873').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-4171457450 -1002056077918 -1001855416726 -1001907475500 -1002072918685 -1001907475500 -1001870924339 -1001859912083 -1001936525973 -1002108760401 -1001536237391 -1001948645856').split()] #Channel id for auto indexing ( make sure bot is admin )
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
