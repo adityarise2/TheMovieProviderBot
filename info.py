@@ -29,13 +29,13 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/34283e2ca31d
 CODE = (environ.get('CODE', 'https://graph.org/file/34283e2ca31d427b4e289.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'publicearn.com'))
-STREAM_API = (environ.get('STREAM_API', '96b97324e7c84acdb3070bce5f4b965eada810cd')) #yaha tak edited hai bankai
+STREAM_SITE = (environ.get('STREAM_SITE', 'shrinkforearn.in'))
+STREAM_API = (environ.get('STREAM_API', '27bb7f7725c7fbd022cf8cfd6441ac081c8fc765')) #yaha tak edited hai bankai
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/HowToOpenLinkP/69'))
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6258381233').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-4171457450 -1002056077918 -1001855416726 -1001907475500 -1002072918685 -1001907475500 -1001870924339 -1001859912083 -1001936525973 -1001536237391 -1001948645856').split()] #Channel id for auto indexing ( make sure bot is admin )
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6258381233 6964538561').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-4171457450 -1002056077918 -1001855416726 -1001907475500 -1002072918685 -1001907475500 -1001870924339 -1001859912083 -1001936525973 -1002108760401 -1001536237391 -1001948645856').split()] #Channel id for auto indexing ( make sure bot is admin )
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
@@ -60,8 +60,8 @@ default_url = 'https://t.me/+5_f1GyV1xdU5ZTBl'
 HOWTOVERIFY = environ.get('HOWTOVERIFY', default_url) # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '96b97324e7c84acdb3070bce5f4b965eada810cd')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shrinkforearn.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '27bb7f7725c7fbd022cf8cfd6441ac081c8fc765')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
