@@ -31,11 +31,11 @@ CODE = (environ.get('CODE', 'https://graph.org/file/34283e2ca31d427b4e289.jpg'))
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'shrinkforearn.in'))
 STREAM_API = (environ.get('STREAM_API', '27bb7f7725c7fbd022cf8cfd6441ac081c8fc765')) #yaha tak edited hai bankai
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/HowToOpenLinkP/69'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/how_to_open_linkzz/13'))
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6258381233 6964538561 7030439873').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-4171457450 -1002056077918 -1001855416726 -1001907475500 -1002072918685 -1001907475500 -1002037316682 -1001870924339 -1001859912083 -1001936525973 -1002108760401 -1001536237391 -1001948645856').split()] #Channel id for auto indexing ( make sure bot is admin )
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()] #Channel id for auto indexing ( make sure bot is admin )
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
@@ -51,29 +51,29 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want n
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "something")
+DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
 VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
-default_url = 'https://t.me/+5_f1GyV1xdU5ZTBl'
+default_url = 'https://t.me/how_to_open_linkzz/13'
 HOWTOVERIFY = environ.get('HOWTOVERIFY', default_url) # How to open tutorial link for verification
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shrinkforearn.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '27bb7f7725c7fbd022cf8cfd6441ac081c8fc765')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Anime_Compass_chat_group')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Movies_Compass')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Movies_Compass') # Tutorial video link for opening shortlink website 
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+u9dSPxCw_LRlODc1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AjCinemassOfcl')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_open_linkzz/13') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Mr Bankai')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002056077918')) #Log channel id ( make sure bot is admin )
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Anime_Compass_chat_group') #Support group link ( make sure bot is admin )
+MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Jack')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002120388756')) #Log channel id ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '-1001914728318') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
@@ -108,9 +108,9 @@ else:
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 default_fqdn = getenv('FQDN', BIND_ADRESS)  # Get FQDN or BIND_ADRESS
 FQDN = getenv('FQDN', default=BIND_ADRESS)  # Set default if FQDN is None
-FQDN = str(FQDN) if FQDN is not None else APP_NAME+'https://gamma-v4-38a4a7be679a.herokuapp.com/'
-URL = "https://gamma-v4-38a4a7be679a.herokuapp.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "https://gamma-v4-38a4a7be679a.herokuapp.com/".format(FQDN, PORT)
+FQDN = str(FQDN) if FQDN is not None else APP_NAME+''
+URL = "".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
@@ -125,12 +125,12 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',True))
 if HAS_SSL:
-    URL = "https://gentle-tundra-69827-3ea85f9c9cb9.herokuapp.com/".format(FQDN)
+    URL = "".format(FQDN)
 else:
-    URL = "http://gentle-tundra-69827-3ea85f9c9cb9.herokuapp.com/".format(FQDN)
+    URL = "".format(FQDN)
 
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002094828265'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', ''))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
