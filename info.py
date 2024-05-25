@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/34283e2ca31d
 CODE = (environ.get('CODE', 'https://graph.org/file/34283e2ca31d427b4e289.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', ''))
-STREAM_API = (environ.get('STREAM_API', '')) #yaha tak edited hai bankai
+STREAM_SITE = (environ.get('STREAM_SITE', 'clawbox.site'))
+STREAM_API = (environ.get('STREAM_API', '98ee6490-629a-467b-87ea-cfdcbe1f4210')) #yaha tak edited hai bankai
 STREAMHTO = (environ.get('STREAMHTO', ''))
 
 # Admins, Channels & Users
