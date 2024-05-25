@@ -1,13 +1,13 @@
 class script(object):
-    START_TXT = """ʜᴇʏ {}, {}\n\nɪ ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.\n\nᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/JackWithoutRose">ʜᴘ</a>"""
+    START_TXT = """ʜᴇʏ {}, {}\n\n ᴍY ɴAME ɪꜱ ᴀᴊ ᴄɪɴᴇᴍᴀꜱ ʀᴏʙᴏᴛ 🤖, ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇꜱ ᴊᴜꜱᴛ ᴇɴᴛᴇʀ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ ꜱᴘᴇʟʟɪɴɢ ᴀɴᴅ ꜱᴇᴇ ᴍᴀɢɪᴄ... ᴅᴏɴᴛ ꜱᴇᴀʀᴄʜ ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛꜱ ʏᴏᴜ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛꜱ ʙʀᴏ 😁 😍.\n\nᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/aj_adminn_bot">ʜᴘ</a>"""
 
-    GSTART_TXT = """ʜᴇʏ {},\n\nɪ ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.\n\nᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/JackWithoutRose">ʜᴘ</a>"""
+    GSTART_TXT = """ʜᴇʏ {},\n\n ᴍY ɴAME ɪꜱ ᴀᴊ ᴄɪɴᴇᴍᴀꜱ ʀᴏʙᴏᴛ 🤖, ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇꜱ ᴊᴜꜱᴛ ᴇɴᴛᴇʀ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ ꜱᴘᴇʟʟɪɴɢ ᴀɴᴅ ꜱᴇᴇ ᴍᴀɢɪᴄ... ᴅᴏɴᴛ ꜱᴇᴀʀᴄʜ ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛꜱ ʏᴏᴜ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛꜱ ʙʀᴏ 😁 😍.\n\nᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/aj_adminn_bot">ʜᴘ</a>"""
     
     HELP_TXT = """<b>ʜᴇʏ {},
     
 ᴡᴇ ʜᴀᴠᴇ ᴅᴇᴠɪᴅᴇᴅ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅꜱ ꜰᴏʀ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀꜱ ᴀɴᴅ ʙᴏᴛ ᴜꜱᴇʀꜱ.</b>"""
 
-    ABOUT_TXT = """<b>‣ ᴍʏ ɴᴀᴍᴇ : {}\n‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/JackWithoutRose'>Jack ❤️‍🔥</a>\n‣ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ\n‣ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ\n‣ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\n‣ ʜᴏsᴛᴇᴅ ᴏɴ  : ʜᴇʀᴏᴋᴜ\n‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ4.2 [sᴛᴀʙʟᴇ]</b>"""
+    ABOUT_TXT = """<b>‣ ᴍʏ ɴᴀᴍᴇ : {}\n‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/aj_adminn_bot'>Jack ❤️‍🔥</a>\n‣ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ\n‣ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ\n‣ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\n‣ ʜᴏsᴛᴇᴅ ᴏɴ  : ʜᴇʀᴏᴋᴜ\n‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ4.2 [sᴛᴀʙʟᴇ]</b>"""
     
     CHANNELS = """
 <b>⚡ ɢʀᴏᴜᴘs & ᴄʜᴀɴɴᴇʟs ɪɴғᴏ ⚡ 
@@ -32,14 +32,14 @@ Iᴅ = <code>{}</code>
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}
 
-Bʏ @JackWithoutRose"""
+Bʏ @aj_adminn_bot"""
 
     LOG_TEXT_P = """#NewUser
     
 Iᴅ - <code>{}</code>
 Nᴀᴍᴇ - {}
 
-Bʏ @JackWithoutRose"""
+Bʏ @aj_adminn_bot"""
 
     ALRT_TXT = """ʜᴇʟʟᴏ {},
 ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ,
@@ -234,20 +234,20 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     CREDITS_TXT = """<b>
 ❤️‍🩹 <u>ꜱᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋꜱ ᴛᴏ ᴇᴠᴇʀʏᴏɴᴇ</u>
 
-• ᴍᴀɪɴ ᴏᴡɴᴇʀ : <a href="https://t.me/JackWithoutRose">Jack ❤️‍🔥</a>
-• ʙᴀꜱᴇ ʀᴇᴘᴏ : <a href="https://t.me/JackWithoutRose">Jack ᠰ TɢX</a>
-• sᴛʀᴇᴀᴍ ғᴇᴀᴛᴜʀᴇ : <a href="https://t.me/JackWithoutRose">LazyDeveloper</a>
-• sᴛʀᴇᴀᴍ ᴡᴇʙꜱɪᴛᴇ : <a href="https://t.me/JackWithoutRose">Bɪɪsᴀʟ</a>
-• ᴘʀᴇᴍɪᴜᴍ ᴄᴏᴅᴇꜱ : <a href="https://t.me/JackWithoutRose">Rɪꜱʜɪᴋᴇꜱʜ</a>
-• ᴡᴇʟᴄᴏᴍᴇ ᴀɴɪᴍᴀᴛɪᴏɴ : <a href="https://t.me/JackWithoutRose">𝑿𝒂𝒗𝒊𝒆𝒓</a>
-• ꜱᴛʀᴇᴀᴍ ꜱʜᴏʀᴛʟɪɴᴋ : <a href="https://t.me/JackWithoutRose">⚝𝗠𝗿.𝗦𝗣𝗜𝗗𝗬⚝</a>
+• ᴍᴀɪɴ ᴏᴡɴᴇʀ : <a href="https://t.me/aj_adminn_bot">Jack ❤️‍🔥</a>
+• ʙᴀꜱᴇ ʀᴇᴘᴏ : <a href="https://t.me/aj_adminn_bot">Jack ᠰ TɢX</a>
+• sᴛʀᴇᴀᴍ ғᴇᴀᴛᴜʀᴇ : <a href="https://t.me/aj_adminn_bot">LazyDeveloper</a>
+• sᴛʀᴇᴀᴍ ᴡᴇʙꜱɪᴛᴇ : <a href="https://t.me/aj_adminn_bot">Bɪɪsᴀʟ</a>
+• ᴘʀᴇᴍɪᴜᴍ ᴄᴏᴅᴇꜱ : <a href="https://t.me/aj_adminn_bot">Rɪꜱʜɪᴋᴇꜱʜ</a>
+• ᴡᴇʟᴄᴏᴍᴇ ᴀɴɪᴍᴀᴛɪᴏɴ : <a href="https://t.me/aj_adminn_bot">𝑿𝒂𝒗𝒊𝒆𝒓</a>
+• ꜱᴛʀᴇᴀᴍ ꜱʜᴏʀᴛʟɪɴᴋ : <a href="https://t.me/aj_adminn_bot">⚝𝗠𝗿.𝗦𝗣𝗜𝗗𝗬⚝</a>
 
 ɪ ᴀᴍ ꜱᴏʀʀʏ ɪꜰ ɪ ꜰᴏʀɢᴏᴛ ꜱᴏᴍᴇᴏɴᴇ 🫂
 ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ʜᴇʟᴘɪɴɢ ɪɴ ᴛʜɪꜱ ᴀᴍᴀᴢɪɴɢ ʀᴏʟʟᴇʀ ᴄᴏᴀꜱᴛᴇʀ ᴊᴏᴜʀɴᴇʏ 🚀</b>
 """ 
    # PLEASE DO NOT REMOVE ANY CREDITS ❤️‍🩹
     
-    CAPTION = """ 📂 <i><a href="https://telegram.me/Movies_Compass">{file_name}</a></i>\n\n"""
+    CAPTION = """ 📂 <i><a href="https://telegram.me/AjCinemassOfcl">{file_name}</a></i>\n\n"""
 
     IMDB_TEMPLATE_TXT = """
 <b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
@@ -275,7 +275,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v4.2 [ Sᴛᴀʙʟᴇ ]</code>
 
-Bʏ @JackWithoutRose</b>"""
+Bʏ @aj_adminn_bot</b>"""
 
     LOGO = """
 
@@ -445,5 +445,5 @@ BOT WORKING PROPERLY"""
     DEVELOPER_TXT = """
 special Thanks To ❤️ Developer -
 
--Dev [Owner of this bot ]<a href='https://t.me/JackWithoutRose'>🧭</a>
+-Dev [Owner of this bot ]<a href='https://t.me/aj_adminn_bot'>🧭</a>
 """
