@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('API_ID', '28900444'))
+API_HASH = environ.get('API_HASH', '7343be63958388e1d88c2961efe5a9e6')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6622811670:AAE72KucgGLfCRJ8ieKa8VVgtMqNaO0jFyk")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -29,39 +29,39 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/34283e2ca31d
 CODE = (environ.get('CODE', 'https://graph.org/file/34283e2ca31d427b4e289.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'shrinkforearn.in'))
-STREAM_API = (environ.get('STREAM_API', '27bb7f7725c7fbd022cf8cfd6441ac081c8fc765')) #yaha tak edited hai bankai
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/how_to_open_linkzz/13'))
+STREAM_SITE = (environ.get('STREAM_SITE', ''))
+STREAM_API = (environ.get('STREAM_API', '')) #yaha tak edited hai bankai
+STREAMHTO = (environ.get('STREAMHTO', ''))
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()] #Channel id for auto indexing ( make sure bot is admin )
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5397893493').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001648519555').split()] #Channel id for auto indexing ( make sure bot is admin )
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
-auth_channel = environ.get('AUTH_CHANNEL', '-1002052274478') #Channel / Group Id for force sub ( make sure bot is admin )
+auth_channel = environ.get('AUTH_CHANNEL', '-1001916993962') #Channel / Group Id for force sub ( make sure bot is admin )
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '') # support group id ( make sure bot is admin )
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001914728318') # support group id ( make sure bot is admin )
 reqst_channel = environ.get('REQST_CHANNEL_ID', '') # request channel id ( make sure bot is admin )
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want no results messages in Log Channel
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ajnetwork1:ySypMfTFQpuoUEHk@cluster0.rk3tmfk.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "ajnetwork")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
-VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
 default_url = 'https://t.me/how_to_open_linkzz/13'
 HOWTOVERIFY = environ.get('HOWTOVERIFY', default_url) # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shrinkforearn.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '27bb7f7725c7fbd022cf8cfd6441ac081c8fc765')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urllinkshort.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '4256cebd09976433abc89d2fa6710ec0ff249190')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
@@ -72,7 +72,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AjCinemassOfcl')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_open_linkzz/13') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Jack')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002120388756')) #Log channel id ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001899266690')) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '-1001914728318') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
