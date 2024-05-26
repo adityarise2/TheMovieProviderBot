@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/34283e2ca31d
 CODE = (environ.get('CODE', 'https://graph.org/file/34283e2ca31d427b4e289.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'clawbox.site'))
-STREAM_API = (environ.get('STREAM_API', '98ee6490-629a-467b-87ea-cfdcbe1f4210')) #yaha tak edited hai bankai
+STREAM_SITE = (environ.get('STREAM_SITE', ''))
+STREAM_API = (environ.get('STREAM_API', '')) #yaha tak edited hai bankai
 STREAMHTO = (environ.get('STREAMHTO', ''))
 
 # Admins, Channels & Users
@@ -55,7 +55,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "ajnetwork")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
-VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
 default_url = 'https://t.me/how_to_open_linkzz/13'
 HOWTOVERIFY = environ.get('HOWTOVERIFY', default_url) # How to open tutorial link for verification
 
