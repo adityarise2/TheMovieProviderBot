@@ -55,7 +55,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "ajnetwork")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
-VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
 default_url = 'https://t.me/how_to_open_linkzz/13'
 HOWTOVERIFY = environ.get('HOWTOVERIFY', default_url) # How to open tutorial link for verification
 
@@ -125,9 +125,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',True))
 if HAS_SSL:
-    URL = "https://adhithya-filter-13ae6043d4f4.herokuapp.com/".format(FQDN)
+    URL = "https://aware-colline-ajconemis-bcb67c30.koyeb.app/".format(FQDN)
 else:
-    URL = "https://adhithya-filter-13ae6043d4f4.herokuapp.com/".format(FQDN)
+    URL = "https://aware-colline-ajconemis-bcb67c30.koyeb.app/".format(FQDN)
 
 # add premium logs channel id
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002023868211'))
