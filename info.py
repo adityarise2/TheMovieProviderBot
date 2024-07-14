@@ -60,8 +60,8 @@ default_url = 'https://t.me/how_to_open_linkzz/13'
 HOWTOVERIFY = environ.get('HOWTOVERIFY', default_url) # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urllinkshort.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '4256cebd09976433abc89d2fa6710ec0ff249190')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '74b308ea3b6b466a5116613403c051e12327485b')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
