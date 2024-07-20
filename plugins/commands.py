@@ -342,7 +342,7 @@ async def start(client, message):
         
     
     elif data.startswith("short"):
-        protect_content=True
+        protect_content=False
         current_time = datetime.now(pytz.timezone(TIMEZONE))
         curr_time = current_time.hour        
         if curr_time < 12:
@@ -376,7 +376,7 @@ async def start(client, message):
         return
         
     elif data.startswith("all"):
-        protect_content=True
+        protect_content=False
         user_id = message.from_user.id
         files = temp.GETALL.get(file_id)
         if not files:
@@ -414,7 +414,7 @@ async def start(client, message):
                 chat_id=message.from_user.id,
                 file_id=file_id,
                 caption=f_caption,
-                protect_content=True if pre == 'filep' else False,
+                protect_content=False if pre == 'filep' else False,
                 reply_markup=InlineKeyboardMarkup(
             [
              [
@@ -490,7 +490,7 @@ async def start(client, message):
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
                 file_id=file_id,
-                protect_content=True if pre == 'filep' else False,
+                protect_content=False if pre == 'filep' else False,
                 reply_markup=InlineKeyboardMarkup(
             [
              [
@@ -553,7 +553,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        protect_content=True if pre == 'filep' else False,
+        protect_content=False if pre == 'filep' else False,
         reply_markup=InlineKeyboardMarkup(
             [
              [
