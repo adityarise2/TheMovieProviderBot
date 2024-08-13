@@ -125,9 +125,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',True))
 if HAS_SSL:
-    URL = "https://integrated-rochelle-ajconemis-26370abe.koyeb.app/".format(FQDN)
+    URL = "https://numerous-karleen-ajconemis-3ed112dc.koyeb.app/".format(FQDN)
 else:
-    URL = "https://integrated-rochelle-ajconemis-26370abe.koyeb.app/".format(FQDN)
+    URL = "https://numerous-karleen-ajconemis-3ed112dc.koyeb.app/".format(FQDN)
 
 # add premium logs channel id
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002023868211'))
