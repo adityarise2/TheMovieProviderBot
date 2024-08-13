@@ -72,7 +72,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AjCinemassOfcl')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_open_linkzz/13') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Jack')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002120388756')) #Log channel id ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001899266690')) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '-1001914728318') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
@@ -125,9 +125,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',True))
 if HAS_SSL:
-    URL = "https://aware-colline-ajconemis-bcb67c30.koyeb.app/".format(FQDN)
+    URL = "https://integrated-rochelle-ajconemis-26370abe.koyeb.app/".format(FQDN)
 else:
-    URL = "https://aware-colline-ajconemis-bcb67c30.koyeb.app/".format(FQDN)
+    URL = "https://integrated-rochelle-ajconemis-26370abe.koyeb.app/".format(FQDN)
 
 # add premium logs channel id
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002023868211'))
